@@ -17,4 +17,4 @@ A classic Hangman game built using HTML, CSS, and JavaScript for the frontend, w
 ## 📥 Installation  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/hangman-game.git
+   git clone https://github.com/karthi-keyan-balaji/hangman.git
