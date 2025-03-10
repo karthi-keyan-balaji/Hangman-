@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+<script>
+document.getElementById("result")=sessionStorage.getItem("score");
+</script>
+<form action='score2.php' method='post'>
+<label id='score'>Your score is: " +<span id="result"></span>+ "</label>
+<br>
+<label id='name' required >Enter Your Name : </label>
+<input type='text' id='username'></input>
+<input type='hidden' name='score' value='" + scre1 + "'> 
+<input type='submit' name='p_name' value='Submit' id='ok'></input>
+</form>
+</body>
+</html>

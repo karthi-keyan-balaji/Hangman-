@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Score Page</title>
+<link rel="stylesheet" href='style2.css'>
+</head>
+<body>
+<script>
+document.getElementById("result").innerHTML=sessionStorage.getItem("score");
+</script>
+<h3 id='winner'>Hurray...! You won the game!!!</h3>
+<br>
+<p>The score you got:<span id="result"></span>
+
+<form action="score.php">
+<label id='name' required >Enter Your Name : </label>
+<input type='text' id='username'></input>
+<br><br>
+<input type='button' name='p_name' value='Submit' id='ok'></input>
+<input type='button' value='Back' onclick=mainp() id='back'></input>
+</form>
+</body>
+</html>
